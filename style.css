@@ -79,7 +79,7 @@ body{
     height: 100vh;
     width: 100%;
     z-index: 1;
-    background-image: url(/images/vikram-cover);
+    background-image: url(images/vikram-cover);
     object-fit: cover;
     background-size: cover;
     animation: hideElement 3s forwards;
