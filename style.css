@@ -1,7 +1,4 @@
-:root{
-    /* box-sizing: border-box; */
-    
-}
+
 *{
     font-family: "Inter",sans-serif ;
 }
@@ -9,7 +6,6 @@
 body{
     margin: 0;
     width: 100%;
-    
     display: flex;
     flex-direction: row;
 
@@ -21,18 +17,15 @@ body{
     position: fixed;
     left: 0;
     top: 0;
-    /* background-color: rgba(199, 7, 7, 0.3); */
     z-index: 4;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* overflow: hidden; */
 
 }
 .icon-group{
     width: 100%;
     height: 100%;
-    /* background-color: burlywood; */
     z-index: 3;
     overflow: hidden;
     transition-duration: 1s;
@@ -86,7 +79,6 @@ body{
     height: 100vh;
     width: 100%;
     z-index: 1;
-    /* background-color: rgb(255, 0, 136); */
     background-image: url(/images/vikram-cover);
     object-fit: cover;
     background-size: cover;
@@ -123,13 +115,10 @@ body{
 .main{
     position: relative;
     width: 100%;
-    /* background-color: aqua; */
+    
     background-color: transparent;
-    /* padding-left: 8rem;
-    padding-top: 8rem; */
     box-sizing: content-box;
     z-index: 1;
-    /* overflow-x: hidden; */
     
 }
 .movie-data{
@@ -140,12 +129,10 @@ body{
     margin-left: 8rem;
     margin-top: 10rem;
     margin-bottom: 4rem;
-    /* background-color: red; */
   
 }
 .movie-data-right{
     width: 30%;
-    /* background-color: blue; */
     display: flex;
     flex-direction: column;
     color: hsla(0,0%,100%,0.84);
@@ -255,9 +242,9 @@ body{
     background-color:rgba(255, 255, 255, 0.3) ;
 }
 .row{
+    margin-top: 2rem;
     width: auto;
-    height: 100rem;
-    background-color: cadetblue;
+    height: fit-content;
     margin-left: 8rem;
     
 }
@@ -278,7 +265,6 @@ body{
 }
 .cards{
     
-    background-color: blue;
     display: flex;
     max-width: 100vw;
     height: 240px;
@@ -324,12 +310,76 @@ body{
 
     
 }
-/* .card:hover{
-    transform: scale(1.5);
-    z-index: 10;
-    
-} */
+.section{
+    height: auto;
+    width: 100%;
+    background-color: black;
 
+}
+footer{
+    margin-top: 10rem;
+    padding-bottom: 5rem;
+    padding-right: 5rem;
+    width: auto;
+    height: fit-content;
+    padding-left: 8rem;
+}
+.footer-row{
+    position: relative;
+    margin-bottom:1rem ;
+    width: 100%;
+    height: fit-content;
+    display: flex;   
+}
+.ft-icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.footer-col{
+    width: 25%;
+    height: fit-content;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    
+}
+.footer-col h5{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+.cpright{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #8f98b2;
+
+}
+.footer-col p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #8f98b2;
+}
+.ftbtns{
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width:auto;
+    height: 40px;
+    object-fit: contain;
+    gap: 1rem;
+}
+.ftbtns img{
+    height: 40px;
+    object-fit: contain;
+}
 
 
 
